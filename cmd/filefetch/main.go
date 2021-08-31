@@ -1,3 +1,16 @@
+// A short tool to fetch a single file from FTP.
+//
+// Usage of /tmp/go-build3945962022/b001/exe/main:
+//   -H string
+//         ftp hostname (default "ftp.ncbi.nlm.nih.gov:21")
+//   -L    use lftp
+//   -P string
+//         password (default "anonymous")
+//   -U string
+//         username (default "anonymous")
+//   -f string
+//         filepath to retrieve (default "/pub/pmc/readme.txt")
+
 package main
 
 import (
